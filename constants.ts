@@ -18,7 +18,7 @@ export const MENU_DATA: MenuCategory[] = [
     id: 'entradas',
     name: 'Entradas',
     items: [
-      { id: 1, name: 'Mini Patacon Con Guacamole', description: 'Cuatro Mini Patacones con Guacamole Artesanal.', price: '$10.000', imageUrl: '/images/entradas/miniwacamolesin.jpg' },
+      { id: 1, name: 'Mini Patacon Con Guacamole', description: 'Cuatro Mini Patacones con Guacamole Artesanal.', price: '$10.000', imageUrl: `${import.meta.env.BASE_URL}images/entradas/miniwacamolesin.jpg` },
       { id: 2, name: 'Mini Patacon Con Chicharron', description: 'Cuatro Mini Patacones con Chicharron y Queso Fundido.', price: '$10.000', imageUrl: '/images/entradas/minichicharronsin.jpg' },           
       { id: 3, name: 'Migado', description: 'Queso Mozarella, Pan Queso, Ducales, Buñuelo, Almojábana.', price: '$16.000', imageUrl: '/images/entradas/migado.jpg' },
       //{ id: 4, name: 'Champiñones al Ajillo', description: 'Champiñones salteados en aceite de oliva, ajo y guindilla.', price: '$18.000', imageUrl: getImageUrl('champinones') },
