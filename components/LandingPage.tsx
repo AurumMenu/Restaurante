@@ -12,7 +12,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onShowMenu, onShowLocation })
       
       <div>
         <h1 className="font-serif text-8xl md:text-9xl text-aurum-dark font-bold tracking-wider">ĀURUM</h1>
-        <p className="text-aurum-mid-dark mt-2 text-xl font-medium">Cocina de Autor</p>
+        <p className="text-aurum-mid-dark mt-2 text-xl font-medium">Tesoro Gastronómico</p>
       </div>
 
       <div className="w-full max-w-sm space-y-4">
